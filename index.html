@@ -1,0 +1,45 @@
+<html>
+
+  <head>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+
+        var dog = document.createElement('img');
+        dog.src = 'https://bit.ly/3fsc0rH';
+        document.body.appendChild(dog);
+
+        dog.style.width = '77%';
+
+        dog.style.filter = 'blur(3.5px)';
+
+        var dogText = document.createElement('div');
+        dogText.innerHTML = 'This is a Dog';
+        dogText.style.color = 'black';
+        dogText.style.position = 'absolute';
+        dogText.style.top = '0';
+        dogText.style.left = '0';
+        document.body.appendChild(dogText);
+
+        dogText.style.textAlign = 'center';
+        dogText.style.fontFamily = 'Gill Sans MT';
+        dogText.style.fontSize = '25px';
+
+        dogText.style.width = '100%';
+        dogText.style.height = '100%';
+        dogText.style.display = 'flex';
+        dogText.style.alignItems = 'center';
+        dogText.style.justifyContent = 'center';
+
+        dog.style.display = 'block';
+        dog.style.margin = 'auto';
+
+        dogText.style.fontSize = '50px';
+
+        dogText.style.fontFamily = 'garamond';
+
+        dogText.style.fontFamily = 'futura';
+      });
+
+    </script>
+  </head>
+</html>
